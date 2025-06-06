@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    gap: 105px;
+}
+
+img {
+    width: 350px;
+    transition: scale .3s ease-in-out;
+}
+
+img:hover {
+    scale: 1.5;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-table{
+    width: 100px;
+    transition: none;
+}
+
+.img-table:hover {
+    scale: 1;
+}
